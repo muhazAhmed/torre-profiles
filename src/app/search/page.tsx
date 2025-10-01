@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import SearchBar from "@/components/SearchBar";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import Results from "./Results";
+import Seo from "@/components/Seo";
 
 export const metadata: Metadata = {
   title: "Search Profiles | Torre Profiles",
@@ -19,8 +20,11 @@ export default async function SearchPage({
 
   return (
     <main className="flex flex-col gap-6 container mx-auto p-6">
+      <Seo
+        title="Search Profiles"
+        description="Find professionals by name or profession on Torre."
+      />
       <SearchBar defaultQuery={query} />
-
       <Suspense
         key={query}
         fallback={

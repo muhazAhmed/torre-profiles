@@ -25,3 +25,15 @@ parses it accordingly, returning a clean array of profile objects.\*
 ""
 
 ---
+
+---
+
+## 3. ChatGPT (GPT-5)
+
+\**Prompt:*Integrate next-seo in a Next.js 14 (App Router) project.
+Fix invalid hook call errors by creating client wrappers for <NextSeo> and <DefaultSeo>.
+Update RootLayout, SearchPage, and ProfilePage to use these wrappers.
+Ensure SEO works with static metadata defaults and dynamic metadata for user profiles.\*  
+""
+
+---

@@ -1,5 +1,6 @@
 import ProfileHeader from "@/components/ProfileHeader";
 import ProfileSkills from "@/components/ProfileSkills";
+import Seo from "@/components/Seo";
 
 async function getProfile(username: string) {
   const baseUrl =
@@ -30,6 +31,12 @@ export default async function ProfilePage({
 
   return (
     <main className="container mx-auto p-6 flex flex-col gap-6">
+      <Seo
+        title={`${profile.person.name} | Torre Profile`}
+        description={
+          profile.person.professionalHeadline || "Torre user profile"
+        }
+      />
       <ProfileHeader profile={profile.person} />
       <ProfileSkills strengths={profile.strengths || []} />
     </main>
