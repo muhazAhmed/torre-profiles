@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import DefaultSeoWrapper from "@/components/DefaultSeoWrapper";
 import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
@@ -29,7 +28,6 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased bg-gradient-to-br from-[#0d1110] via-[#0f1a17] to-[#0b2520] min-h-screen`}
       >
-        <DefaultSeoWrapper />
         {children}
         <Analytics />
       </body>
