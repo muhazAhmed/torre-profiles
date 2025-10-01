@@ -37,3 +37,9 @@ Ensure SEO works with static metadata defaults and dynamic metadata for user pro
 ""
 
 ---
+
+## 4. Warp AI (Claude Sonnet)
+
+**Prompt:** *"Please review and beautify the existing README.md file to improve its formatting, structure, and visual appeal for better documentation presentation."*
+
+---
