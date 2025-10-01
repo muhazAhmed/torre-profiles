@@ -1,4 +1,3 @@
-import { API } from "@/config/server";
 import ProfileHeader from "@/components/ProfileHeader";
 import ProfileSkills from "@/components/ProfileSkills";
 
@@ -23,9 +22,11 @@ async function getProfile(username: string) {
 export default async function ProfilePage({
   params,
 }: {
-  params: { username: string };
+  params: Promise<{ username: string }>;
 }) {
-  const profile = await getProfile(params.username);
+  const { username } = await params;
+
+  const profile = await getProfile(username);
 
   return (
     <main className="container mx-auto p-6 flex flex-col gap-6">
