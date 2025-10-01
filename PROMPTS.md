@@ -13,3 +13,15 @@ and update the project fonts to use modern Google Fonts for better readability.\
 ""
 
 ---
+
+---
+
+## 2. ChatGPT (GPT-5)
+
+\**Prompt:*Handle the Torre API response parsing properly.  
+The response sometimes returns a giant newline-delimited JSON string,  
+other times a single JSON object. Write code that detects the format and  
+parses it accordingly, returning a clean array of profile objects.\*  
+""
+
+---
