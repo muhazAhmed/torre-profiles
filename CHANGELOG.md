@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/muhazAhmed/torre-profiles/compare/v1.3.0...v1.4.0) (2025-10-01)
+
+
+### Features
+
+* add Vercel Analytics integration ([03dace7](https://github.com/muhazAhmed/torre-profiles/commit/03dace7a7100161bc7bfae8948a3d026ae4af63a))
+
 ## [1.3.0](https://github.com/muhazAhmed/torre-profiles/compare/v1.2.2...v1.3.0) (2025-10-01)
 
 
