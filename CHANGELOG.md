@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/muhazAhmed/torre-profiles/compare/v1.2.2...v1.3.0) (2025-10-01)
+
+
+### Features
+
+* integrate next-seo with client wrappers for App Router ([f2040c9](https://github.com/muhazAhmed/torre-profiles/commit/f2040c9a1241132fc08ca4802cd20f19671362a1))
+
 ### [1.2.2](https://github.com/muhazAhmed/torre-profiles/compare/v1.2.1...v1.2.2) (2025-10-01)
 
 ### [1.2.1](https://github.com/muhazAhmed/torre-profiles/compare/v1.2.0...v1.2.1) (2025-10-01)
